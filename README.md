@@ -1,7 +1,7 @@
 # App Quiz
 ## Jogo de perguntas e respostas 
 Desenvolvido no android studio utilizando a linguagem Java.
-Nesse projeto trabalho conceitos de gettters, utilização de efeito sonoro e pontuação armazenada no dispositivo. Com este templete espero ajudar outras pessoas a criarem seus primeiros Quiz's e se possível receber sugestões de como melhorar o código atual. 
+Nesse projeto trabalho conceitos de getters, utilização de efeito sonoro e pontuação armazenada no dispositivo. Com este templete espero ajudar outras pessoas a criarem seus primeiros Quiz's e se possível receber sugestões de como melhorar o código atual. 
 ## Criações publicadas na Google Play a partir do código
 [Crânio Matemática](https://play.google.com/store/apps/details?id=com.fabriciocranio.app&hl=pt_BR)
 
