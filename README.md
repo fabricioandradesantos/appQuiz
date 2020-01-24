@@ -16,5 +16,5 @@ Nesse projeto trabalho conceitos de getters, utilização de efeito sonoro e pon
 
 Fique à vontade para contribuir com o projeto, toda contribuição é bem vinda. :grin:
 
-Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUA](https://github.com/fabriicioa/appQuiz/blob/master/Arquivos/Contribuindo.pdf)
+Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUA](https://github.com/fabriicioa/appQuiz/blob/master/Contribuindo.pdf)
 
