@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_dark"
+    tools:context=".MainEvolucao">
+
+    <TextView
+        android:id="@+id/txtMinhaEvolucaoId"
+        android:layout_width="305dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/buttonbackgroundrespostas"
+        android:paddingTop="5dp"
+        android:text="@string/minhaEvolucao"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTentativasId"
+        android:layout_width="148dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="10dp"
+        android:text="@string/tentativas"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMinhaEvolucaoId"
+        />
+
+    <TextView
+        android:id="@+id/txtAcertosId"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="10dp"
+        android:text="@string/acertos"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMinhaEvolucaoId" />
+
+    <TextView
+        android:id="@+id/txtTentativa1Id"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="20dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTentativasId" />
+
+    <TextView
+        android:id="@+id/txtTentativa2Id"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="20dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTentativa1Id" />
+
+    <TextView
+        android:id="@+id/txtTentativa3Id"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="20dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTentativa2Id" />
+
+    <TextView
+        android:id="@+id/txtTentativa4Id"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="20dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTentativa3Id" />
+
+    <TextView
+        android:id="@+id/txtAcerto1Id"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="20dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAcertosId" />
+
+    <TextView
+        android:id="@+id/txtAcerto2Id"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="20dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAcerto1Id" />
+
+    <TextView
+        android:id="@+id/txtAcerto3Id"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="20dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAcerto2Id" />
+
+    <TextView
+        android:id="@+id/txtAcerto4Id"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/buttonshapemenu"
+        android:paddingTop="20dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAcerto3Id" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
